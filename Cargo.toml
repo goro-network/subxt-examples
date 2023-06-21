@@ -2,7 +2,7 @@
 ss58-registry = { git = "https://github.com/goro-network/ss58-registry", rev = "984cc02" }
 
 [workspace]
-members = ["example-contract", "example-transfer"]
+members = ["example-contract", "example-transfer", "example-read-contract"]
 
 [workspace.package]
 version = "1.0.0-alpha.6"

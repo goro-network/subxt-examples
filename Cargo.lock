@@ -755,6 +755,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "example-read-contract"
+version = "1.0.0-alpha.6"
+dependencies = [
+ "anyhow",
+ "contract-metadata",
+ "contract-transcode",
+ "parity-scale-codec",
+ "scale-info",
+ "ss58-registry",
+ "subxt",
+ "tokio",
+]
+
+[[package]]
 name = "example-transfer"
 version = "1.0.0-alpha.6"
 dependencies = [
